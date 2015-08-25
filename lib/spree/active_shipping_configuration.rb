@@ -16,6 +16,11 @@ class Spree::ActiveShippingConfiguration < Spree::Preferences::Configuration
 
   preference :canada_post_login, :string, :default => "canada_post_login"
 
+  preference :canada_post_pws_api_key, :string, :default => "canada post api key (PWS)"
+  preference :canada_post_pws_secret, :string, :default => "canada post secret (PWS)"
+  preference :canada_post_pws_customer_number, :string, :default => nil
+  preference :canada_post_pws_contract_id, :string, :default => nil
+
   preference :units, :string, :default => "imperial"
   preference :unit_multiplier, :decimal, :default => 16 # 16 oz./lb - assumes variant weights are in lbs
   preference :default_weight, :integer, :default => 0 # 16 oz./lb - assumes variant weights are in lbs
