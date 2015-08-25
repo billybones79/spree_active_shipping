@@ -10,5 +10,9 @@ fr:
     parcel_surface: "Postes Canada Colis Postaux - Surface"
     small_packets_surface: "Postes Canada Petits Colis - Surface"
   canada_post_pws:
-    expedited: "Canada Post PWS Expedited Parcel"
+    expedited_parcel: "Colis accélérés"
+    priority: "Colis accélérés"
+    regular_parcel: "Regular Parcel"
+    xpresspost: "Xpresspost"
+    xpresspost_certified: "Xpresspost Certified"
   shipping_error: "Erreur de livraison"
