@@ -11,11 +11,11 @@ module Spree
       class Base < Spree::Calculator::Shipping::ActiveShipping::Base
         def carrier
           canada_post_options = {
-              :api_key => Spree::ActiveShipping::Config[:canada_post_api_key],
-              :secret => Spree::ActiveShipping::Config[:canada_post_secret],
+              :api_key => Spree::ActiveShipping::Config[:canada_post_pws_api_key],
+              :secret => Spree::ActiveShipping::Config[:canada_post_pws_secret],
               :endpoint => Spree::ActiveShipping::Config[:test_mode] ?
                   'https://ct.soa-gw.canadapost.ca/' : nil,
-              :customer_number => Spree::ActiveShipping::Config[:canada_post_customer_number],
+              :customer_number => Spree::ActiveShipping::Config[:canada_post_pws_customer_number],
               :language => I18n.locale.to_sym
           }
 
