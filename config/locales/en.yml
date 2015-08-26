@@ -64,9 +64,9 @@ en:
     parcel_surface: "Canada Post Parcel Surface"
     small_packets_surface: "Canada Post Small Packets Surface"
   canada_post_pws:
-    expedited_parcel: "Expedited Parcel"
+    expedited: "Expedited Parcel"
     priority: "Priority"
-    regular_parcel: "Regular Parcel"
+    regular: "Regular Parcel"
     xpresspost: "Xpresspost"
     xpresspost_certified: "Xpresspost Certified"
   shipping_error: "Shipping Error"
